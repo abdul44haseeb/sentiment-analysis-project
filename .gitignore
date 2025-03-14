@@ -3,6 +3,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+
 # C extensions
 *.so
 
@@ -74,9 +75,21 @@ docs/_build/
 # PyBuilder
 .pybuilder/
 target/
+=======
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+ENV/
+>>>>>>> fb7661f (Set up modular project structure)
 
 # Jupyter Notebook
 .ipynb_checkpoints
+
 
 # IPython
 profile_default/
@@ -172,3 +185,16 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+=======
+# VS Code
+.vscode/
+
+# Data files (optional, if you don't want to track large data files)
+*.csv
+*.json
+*.txt
+!requirements.txt
+
+# Conda
+.conda/
+
